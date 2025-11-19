@@ -18,9 +18,9 @@ r6bot_controller:
       - joint_6
 
     command_interfaces:
-      - position
-      - velocity
+      - effort
 
     state_interfaces:
       - position
       - velocity
+      - effort
